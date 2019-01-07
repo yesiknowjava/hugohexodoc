@@ -1,0 +1,2 @@
+# hugohexodoc
+Hugo Doc Site
