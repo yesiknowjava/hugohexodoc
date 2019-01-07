@@ -1,0 +1,28 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "hexohugoincubator"
+staticDir = ["static"]
+paginate = 10
+pygmentsUseClasses = true
+summaryLength = 15
+enableRobotsTXT = true
+author = "Prabhakar S"
+
+# navigation
+[menu]
+    
+    [[menu.nav]]
+    name = "mainlevel"
+    URL = "/mainlevel"
+    weight = 2
+
+    [[menu.nav]]
+    weight = 9
+    name = "Pages"
+    hasChildren = true
+
+        [[menu.nav]]
+        parent = "Pages"
+        name = "Project"
+        URL = "/project"
